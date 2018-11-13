@@ -1,4 +1,43 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #dadada;
-  font-size: 10px;
+  font-size: 20px;
+}
+
+.container {
+  margin: 20px auto;
+  width: 100%;
+  text-align:center;
+}
+
+div {
+  display: inline-block;
+  margin: 1% 0;
+  padding: 20px 25px;
+  width: 50%;
+}
+
+@media screen and (min-width: 575px){
+  div {
+    width: 20%;
+  }
+}
+
+@media screen and (min-width: 575px){
+  div {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 991px){
+  div {
+    width: 20%;
+  }
+}
+
+h1 {
+  text-align: center;
 }
