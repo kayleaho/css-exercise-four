@@ -17,13 +17,11 @@ div {
   display: inline-block;
   margin: 1% 0;
   padding: 20px 25px;
-  width: 50%;
+  width: 100%;
 }
 
-@media screen and (min-width: 575px){
-  div {
-    width: 20%;
-  }
+.preview_baku {
+  background-image: url(../images/baku.jpg);
 }
 
 @media screen and (min-width: 575px){
